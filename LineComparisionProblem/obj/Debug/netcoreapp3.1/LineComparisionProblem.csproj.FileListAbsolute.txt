@@ -1,0 +1,12 @@
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\obj\Debug\netcoreapp3.1\LineComparisionProblem.AssemblyInfoInputs.cache
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\obj\Debug\netcoreapp3.1\LineComparisionProblem.AssemblyInfo.cs
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\obj\Debug\netcoreapp3.1\LineComparisionProblem.csproj.CoreCompileInputs.cache
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\bin\Debug\netcoreapp3.1\LineComparisionProblem.exe
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\bin\Debug\netcoreapp3.1\LineComparisionProblem.deps.json
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\bin\Debug\netcoreapp3.1\LineComparisionProblem.runtimeconfig.json
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\bin\Debug\netcoreapp3.1\LineComparisionProblem.runtimeconfig.dev.json
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\bin\Debug\netcoreapp3.1\LineComparisionProblem.dll
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\bin\Debug\netcoreapp3.1\LineComparisionProblem.pdb
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\obj\Debug\netcoreapp3.1\LineComparisionProblem.dll
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\obj\Debug\netcoreapp3.1\LineComparisionProblem.pdb
+C:\Users\NAGENDRA AND JANAKI\source\repos\LineComparisionProblem\LineComparisionProblem\obj\Debug\netcoreapp3.1\LineComparisionProblem.genruntimeconfig.cache
