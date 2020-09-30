@@ -6,36 +6,81 @@ namespace LineComparisionProblem
     {
         static void Main(string[] args)
         {
-            double[] x = new double[2];
-            double[] y = new double[2];
-            double[] length = new double[2];
-            int lineCount = 0;
+            static int i = 1;
 
-            Random random = new Random();
-
-            while (lineCount < 2)
+            public static Line CreateLine()
             {
-                for (int index = 0; index < 2; index++)
-                {
-                    x[index] = random.Next(-100, 100);
-                    y[index] = random.Next(-100, 100);
-                }
-                Console.WriteLine("Coordinates of line {0} are ({1}, {2}) & ({3}, {4})", lineCount + 1, x[0], y[0], x[1], y[1]);
+                int x1 = 0, x2 = 0, y1 = 0, y2 = 0;
 
-                length[lineCount] = Math.Sqrt(Math.Pow((x[1] - x[0]), 2) + Math.Pow((y[1] - y[0]), 2));
-                Console.WriteLine("Length of the line {0}: {1}", lineCount + 1, Math.Round(length[lineCount], 4));
+                Console.WriteLine("Enter the Line" + i++ + " coordinates");
 
-                lineCount++;
+                Console.WriteLine("Enter the coordinates");
+
+                Console.WriteLine("x1: ");
+                x1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("y1: ");
+                y1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter the coordinates of ");
+
+                Console.WriteLine("x2: ");
+                x2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("y2: ");
+                y2 = Convert.ToInt32(Console.ReadLine());
+
+                Line line = new Line(x1, x2, y1, y2);
+
+                return line;
             }
 
-            int value = length[0].CompareTo(length[1]);
-            if (value < 0)
-                Console.WriteLine("Line 1 is smaller than Line 2");
-            else if (value == 0)
-                Console.WriteLine("Both the lines are equal");
-            else
-                Console.WriteLine("Line 1 is greater than Line 2");
+            static void Main(string[] args)
+            {
 
-        }
+                // two lines creation
+
+                Line line1 = CreateLine();
+
+                // line1 length calc
+                line1.CalulateLength();
+
+                Line line2 = CreateLine();
+
+                // line2 length calc
+                line2.CalulateLength();
+
+                Console.Out.WriteLine("Comparing two lies beased on End points\n-----------------------------------------");
+
+                bool isequal = line1.IsEqual(line2);
+
+                if (isequal)
+                {
+                    Console.Out.WriteLine("Both are equal\n");
+
+                }
+                else
+                {
+                    Console.Out.WriteLine("Both are not equal\n");
+                }
+                // comparing two lines length 
+                Console.Out.WriteLine("Comparing two lies beased on length \n----------------------------------------");
+                int k = line1.CompareLines(line2);
+
+
+                if (k == 0)
+                {
+                    Console.WriteLine("Equal lines");
+                }
+                else if (k > 0)
+                {
+                    Console.WriteLine("Line1 is longer  than Line2");
+                }
+                else
+                {
+                    Console.WriteLine("Line1 is shorter  than Line2");
+                }
+
+            }
     }
 }
